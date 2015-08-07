@@ -1,0 +1,15 @@
+{
+  "name": "pogotowie24",
+  "version": "1.0.0",
+  "authors": [
+    "Jacek Spólnik <jacek.spolnik@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
