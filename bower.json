@@ -1,0 +1,20 @@
+{
+  "name": "pogotowie24",
+  "version": "1.0.0",
+  "authors": [
+    "Jacek Spólnik <jacek.spolnik@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery-One-Page-Nav": "~3.0.0",
+    "jquery-sticky": "~1.0.1",
+    "vegas": "~2.1.3",
+    "bootstrap": "~3.3.5"
+  }
+}
