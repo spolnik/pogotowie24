@@ -1,0 +1,128 @@
+.page {
+  padding: 75px 0;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.page ul {
+  text-align: left;
+}
+
+.page img {
+  width: 225px;
+  height: 225px;
+  margin: 0 20px 20px 0;
+
+  @media (max-height: 450px) {
+    margin: 0 auto 20px auto;
+  }
+
+  @media (max-width: 768px) {
+    margin: 0 auto 20px auto;
+  }
+
+  img {
+    width: 215px;
+    height: 215px;
+  }
+}
+
+.elektryk {
+  background: $page_background_color_secondary;
+}
+
+.hydraulik {
+  background: $page_background_color;
+}
+
+.spawanie {
+  background: $page_background_color_secondary;
+}
+
+.slusarz {
+  background: $page_background_color;
+}
+
+.section-header p {
+  font-size: 1.5em;
+
+  @media (max-width: 768px) {
+    font-size: 1.2em;
+  }
+}
+
+.section-title {
+  padding: 20px 0;
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: $title_text_color;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media (max-width: 768px) {
+    font-size: 1.5em;
+  }
+}
+
+.spacer {
+  width: 100px;
+  height: 2px;
+  margin: auto;
+}
+
+.section-subtitle {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.page-contact .contact-info p a {
+  color: $main_color;
+}
+
+.page-contact .spacer {
+  background: $main_color;
+}
+
+.page-contact .section-title {
+  color: $main_color;
+}
+
+@media (min-width: 992px) {
+  .site-footer {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .site-footer .nav-footer li, .site-footer h6 {
+    margin-bottom: 8px;
+  }
+}
+
+.site-footer, .site-footer a, .site-footer h6 {
+  line-height: 1.5;
+}
+
+.site-footer {
+  background-color: #243a54;
+  padding: 60px 0;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+h5, .made-in-krk {
+  color: $secondary_color;
+}
+
+footer {
+  display: block;
+}
+
+.site-footer a {
+  border-bottom: none;
+  color: #fff;
+  -webkit-transition: opacity .2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: opacity .2s cubic-bezier(0.23, 1, 0.32, 1);
+  text-decoration: none;
+}

@@ -9,7 +9,17 @@
           content="NASZA FIRMA ZAJMUJE SIĘ NAPRAWAMI NA TERENIE CAŁEGO KRAKOWA I OKOLIC . SZYBKO TANIO SOLIDNIE CAŁODOBOWO - BŁYSKAWICZNY DOJAZD ZADZWOŃ I ZAPYTAJ 792 693 120 POGOTOWIE CAŁODOBOWE, FACHOWCY...">
     <meta name="keyword"
           content="Pogotowie Elektryczne, Pogotowie Hydrauliczne, Pogotowie Spawalnicze, Pogotowie Ślusarskie, Pogotowie Zamkowe w Krakowie"/>
+    <link rel="shortcut icon" type="image/ico" href="favicon-medkit.ico"/>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="bower_components/vegas/dist/vegas.min.css"/>
+    <link rel="stylesheet" href="app/sass/main.css"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic'
+          rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,59 +29,256 @@
     <![endif]-->
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <a class="navbar-brand" href="#">Pogotowie24</a>
-    <ul class="nav navbar-nav">
-        <li class="active">
-            <a href="#">Główna</a>
-        </li>
-        <li>
-            <a href="#">Elektryk</a>
-        </li>
-        <li><a href="#">Hydraulik</a></li>
-        <li><a href="#">Spawanie</a></li>
-        <li><a href="#">Ślusarz</a></li>
-    </ul>
-</nav>
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    </ol>
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="#">Pogotowie24</a>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="..." alt="...">
-            <div class="carousel-caption">
-                ...
-            </div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
-        <div class="item">
-            <img src="..." alt="...">
-            <div class="carousel-caption">
-                ...
-            </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav" id="menu">
+                <li class="active"><a href="#welcome">Główna</a>
+                </li>
+                <li><a href="#elektryk">Elektryk</a>
+                </li>
+                <li><a href="#hydraulik">Hydraulik</a>
+                </li>
+                <li><a href="#spawanie">Spawanie</a>
+                </li>
+                <li><a href="#slusarz">Ślusarz</a>
+                </li>
+            </ul>
         </div>
-        ...
     </div>
+</nav>
 
-    <!-- Controls -->
-    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+<section id="welcome" class="welcome">
+    <div>
+        <ul class="slider-controls">
+            <li><a href="javascript:void(0)" id="vegas-next" class="next"></a></li>
+            <li><a href="javascript:void(0)" id="vegas-prev" class="prev"></a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="row">
+            <header class="centered">
+                <h1>Pogotowie całodobowe</h1>
 
-Some further content
+                <p>Naprawy na terenie całego krakowa i okolic</p>
+
+                <p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> +48 792 693 120</p>
+
+                <a href="#elektryk" class="btn btn-default more-info">Sprawdź <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+            </header>
+        </div>
+    </div>
+</section>
+
+<section id="elektryk" class="elektryk page">
+    <div class="container">
+        <header class="section-header">
+            <h2 class="section-title">Usługi elektryczne</h2>
+            <div class="spacer"></div>
+            <p class="section-subtitle">Naprawa usterek elektrycznych, instalacja urządzeń elektrycznych</p>
+        </header>
+        <div class="row">
+            <div class="col-md-9">
+                <ul>
+                    <li>wybite bezpieczniki,</li>
+                    <li>wybite korki,</li>
+                    <li>iskry z gniazdka,</li>
+                    <li>iskrzące przewody,</li>
+                    <li>wymiana gniazdek,</li>
+                    <li>wymiana przewodów,</li>
+                    <li>instalacja urządzeń elektrycznych,</li>
+                    <li>instalacja płyt grzewczych,</li>
+                    <li>instalacja płyt indukcyjnych,</li>
+                    <li>instalacja kuchenek elektrycznych, itp.</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <div class="profile"><img src="app/img/elektryk.png" alt="elektryk" />
+                </div>
+                <div>
+                    Elektryk Kraków - do usług 24h/dobę
+                </div>
+                <div>
+                    <i class="fa fa-phone fa-fw"></i> +48 792 693 120
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="hydraulik" class="hydraulik page">
+    <div class="container">
+        <header class="section-header">
+            <h2 class="section-title">Usługi hydrauliczne</h2>
+            <div class="spacer"></div>
+            <p class="section-subtitle">Udrażnianie kanałów, instalacja oraz serwis urządzeń hydraulicznych i sanitarnych</p>
+        </header>
+        <div class="row">
+            <div class="col-md-9">
+                <ul>
+                    <li>udrażnianie kanałów</li>
+                    <li>czyszczenie rur</li>
+                    <li>przetykanie urządzeń sanitarnych</li>
+                    <li>serwis sanirozdrabniaczy</li>
+                    <li>serwis pomp rozdrabniających</li>
+                    <li>serwis wanien z hydromasażem</li>
+                    <li>wymiana zaworów</li>
+                    <li>wymiana wężyków</li>
+                    <li>wymiana baterii</li>
+                    <li>uszczelnianie odpływów</li>
+                    <li>uszczelnianie brodzików</li>
+                    <li>uszczelnianie kabin prysznicowych</li>
+                    <li>instalacja urządzeń hydraulicznych i elektrohydraulicznych</li>
+                    <li>wymiana spłuczek</li>
+                    <li>naprawa geberitów</li>
+                    <li>montaż zlewów</li>
+                    <li>montaż umywalek</li>
+                    <li>montaż kabin prysznicowych, itp</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <div class="profile"><img src="app/img/hydraulik.png" alt="hydraulik" />
+                </div>
+                <div>
+                    Hydraulik Kraków - do usług 24h/dobę
+                </div>
+                <div>
+                    <i class="fa fa-phone fa-fw"></i> +48 792 693 120
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="spawanie" class="spawanie page">
+    <div class="container">
+        <header class="section-header">
+            <h2 class="section-title">Usługi spawalnicze</h2>
+            <div class="spacer"></div>
+            <p class="section-subtitle">Spawanie MIG/MAG, TIG oraz elektrodą otulinową, naprawy przez spawanie i napawanie</p>
+        </header>
+        <div class="row">
+            <div class="col-md-9">
+                <ul>
+                    <li>spawanie MIG/MAG</li>
+                    <li>spawanie TIG</li>
+                    <li>spawanie elektrodą otulinową</li>
+                    <li>spawanie w siedzibie firmy lub u klienta</li>
+                    <li>spawanie bram</li>
+                    <li>spawanie zawiasów</li>
+                    <li>spawanie drzwi</li>
+                    <li>spawanie kaloryferów</li>
+                    <li>spawanie rur</li>
+                    <li>spawanie blach</li>
+                    <li>naprawy uszkodzonych metalowych przedmiotów</li>
+                    <li>naprawy przez napawanie, itp</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <div class="profile"><img src="app/img/spawanie.png" alt="spawanie" />
+                </div>
+                <div>
+                    Spawanie Kraków - do usług 24h/dobę
+                </div>
+                <div>
+                    <i class="fa fa-phone fa-fw"></i> +48 792 693 120
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="slusarz" class="slusarz page">
+    <div class="container">
+        <header class="section-header">
+            <h2 class="section-title">Usługi ślusarskie</h2>
+            <div class="spacer"></div>
+            <p class="section-subtitle">Naprawa usterek elektrycznych, instalacja urządzeń elektrycznych</p>
+        </header>
+        <div class="row">
+            <div class="col-md-9">
+                <ul>
+                    <li>awaryjne otwieranie drzwi</li>
+                    <li>otwieranie  zatrzaśniętych zamków</li>
+                    <li>otwieranie zepsutych zamków bez uszkadzania drzwi</li>
+                    <li>otwierania zamków ze złamanym kluczem</li>
+                    <li>wymiana uszkodzonych zamków</li>
+                    <li>montaż nowych zamków</li>
+                    <li>naprawy ślusarskie, itp</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <div class="profile"><img src="app/img/slusarz.png" alt="slusarz" />
+                </div>
+                <div>
+                    Ślusarz Kraków - do usług 24h/dobę
+                </div>
+                <div>
+                    <i class="fa fa-phone fa-fw"></i> +48 792 693 120
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section></section>
+
+<footer id="page-contact" class="page-contact site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Kontakt</h5>
+                <ul class="secondary-nav nav-footer list-unstyled">
+                    <li><i class="fa fa-phone fa-fw"></i> +48 792 693 120</li>
+                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:ozogmateusz@gmail.com">ozogmateusz@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Usługi</h5>
+                <ul class="secondary-nav nav-footer list-unstyled">
+                    <li><i class="fa fa-ambulance fa-fw"></i> Pogotowie Elektryczne</li>
+                    <li><i class="fa fa-ambulance fa-fw"></i> Pogotowie Hydrauliczne</li>
+                    <li><i class="fa fa-ambulance fa-fw"></i> Pogotowie Spawalnicze</li>
+                    <li><i class="fa fa-ambulance fa-fw"></i> Pogotowie Ślusarskie</li>
+                    <li><i class="fa fa-ambulance fa-fw"></i> Pogotowie Zamkowe</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Realizacja</h5>
+                <ul class="nav-footer list-unstyled">
+                    <li><i class="fa fa-map fa-fw"></i> Naprawy na terenie całego krakowa i okolic
+                    </li>
+                    <li><i class="fa fa-bolt fa-fw"></i> Szybko, tanio i solidnie
+                    </li>
+                    <li><i class="fa fa-car fa-fw"></i> Błyskawiczny dojazd
+                    </li>
+                    <li><i class="fa fa-black-tie fa-fw"></i> Fachowcy dostępni 24h 7 dni w tygodniu
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="credits pull-right">
+            <div class="made-in-krk">Made in Kraków</div>
+            <cite>© <a href="https://spolnik.github.io/AboutMe/" target="_blank">Jacek Spólnik</a> 2015</cite></div>
+    </div>
+</footer>
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/vegas/dist/vegas.min.js"></script>
+<script src="bower_components/jquery-sticky/jquery.sticky.js"></script>
+<script src="bower_components/jQuery-One-Page-Nav/jquery.nav.js"></script>
+<script src="app/scripts/app.js"></script>
 </body>
 </html>
