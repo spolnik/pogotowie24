@@ -96,9 +96,6 @@ h1, h2, h3, h4 {
   @media (max-width: 768px) {
     .page img {
       margin: 0 auto 20px auto; } }
-  .page img img {
-    width: 215px;
-    height: 215px; }
 
 .elektryk {
   background: #f7f7f7; }
@@ -139,15 +136,6 @@ h1, h2, h3, h4 {
   padding: 30px 0;
   text-align: center; }
 
-.page-contact .contact-info p a {
-  color: #fff; }
-
-.page-contact .spacer {
-  background: #fff; }
-
-.page-contact .section-title {
-  color: #fff; }
-
 @media (min-width: 992px) {
   .site-footer {
     margin-top: 60px; } }
@@ -175,6 +163,9 @@ footer {
   -webkit-transition: opacity 0.2s cubic-bezier(0.23, 1, 0.32, 1);
   transition: opacity 0.2s cubic-bezier(0.23, 1, 0.32, 1);
   text-decoration: none; }
+
+.spacer {
+  background: #3498db; }
 
 .vegas-overlay {
   opacity: 0.6;
@@ -222,6 +213,69 @@ footer {
   height: 60px;
   cursor: pointer; }
 
+.page-contact .form-control {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none; }
+.page-contact .controls {
+  background-color: transparent; }
+.page-contact .btn.btn-default {
+  margin: 40px auto 0;
+  position: relative;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  padding: 12px 26px 12px;
+  cursor: pointer;
+  border-radius: 0;
+  letter-spacing: 2px;
+  pointer-events: auto; }
+.page-contact input, .page-contact .input-lg {
+  border-radius: 0; }
+.page-contact .control-group.error input, .page-contact .control-group.error select, .page-contact .control-group.error textarea {
+  border-color: #b94a48;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+.page-contact .control-group.error .checkbox, .page-contact .control-group.error .radio, .page-contact .control-group.error input, .page-contact .control-group.error select, .page-contact .control-group.error textarea {
+  color: #b94a48; }
+.page-contact label.error, .page-contact label.valid {
+  color: #fff;
+  padding: 4px 18px;
+  display: block;
+  margin: 5px 0 10px; }
+.page-contact label.error {
+  background: #b94a48; }
+.page-contact label.valid {
+  background: #5CB85C; }
+
+.page-contact {
+  padding: 75px 0; }
+  .page-contact a, .page-contact a:hover, .page-contact a:focus {
+    color: #fff; }
+
+.page-contact .contact-info p {
+  font-size: 1.2em; }
+
+.page-contact {
+  background-color: #3498db;
+  color: #fff; }
+  .page-contact .btn:hover, .page-contact .btn:focus {
+    background: #fff;
+    color: #3498db;
+    border: 2px solid #3498db;
+    letter-spacing: 0.2em; }
+
+.page-contact .spacer {
+  background-color: #fff; }
+
+.page-contact .section-title {
+  color: #fff; }
+
+#map-container {
+  height: 300px; }
+
 .btn {
   background: transparent;
   color: #F2F2F2;
@@ -239,15 +293,27 @@ footer {
   -o-border-radius: 100px;
   border-radius: 100px;
   /* CSS Transition */
-  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
-  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
-  -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
-  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
-  transition: background .2s ease-in-out, border .2s ease-in-out; }
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear; }
 
-.btn:hover {
-  color: #000;
-  border-color: #fff; }
+.phone {
+  /* CSS Transition */
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  letter-spacing: 0.05em; }
+
+.phone:hover {
+  letter-spacing: 0.15em; }
+
+.btn:hover, .btn:focus {
+  background: transparent;
+  color: #fff;
+  border: 3px solid #3498db;
+  letter-spacing: 0.2em; }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
@@ -257,8 +323,5 @@ a:active,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #3498db; }
-
-.spacer {
-  background: #3498db; }
 
 /*# sourceMappingURL=main.css.map */

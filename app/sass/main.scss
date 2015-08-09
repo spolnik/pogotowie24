@@ -26,6 +26,7 @@ h1, h2, h3, h4 {
 @import "welcome";
 @import "layout";
 @import "slider";
+@import "form";
 
 .btn{
 
@@ -48,17 +49,31 @@ h1, h2, h3, h4 {
   border-radius: 100px;
 
   /* CSS Transition */
-  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
-  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
-  -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
-  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
-  transition: background .2s ease-in-out, border .2s ease-in-out;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
 
 }
 
-.btn:hover {
-  color: #000;
-  border-color: #fff;
+.phone {
+  /* CSS Transition */
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  letter-spacing: 0.05em;
+}
+
+.phone:hover {
+  letter-spacing: 0.15em;
+}
+
+.btn:hover, .btn:focus {
+  background:transparent;
+  color: $main_color;
+  border: 3px solid $secondary_color;
+  letter-spacing: 0.2em;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -71,6 +86,3 @@ a:active,
   color: $secondary_color;
 }
 
-.spacer {
-  background: $secondary_color;
-}

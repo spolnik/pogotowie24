@@ -20,11 +20,6 @@
   @media (max-width: 768px) {
     margin: 0 auto 20px auto;
   }
-
-  img {
-    width: 215px;
-    height: 215px;
-  }
 }
 
 .elektryk {
@@ -76,18 +71,6 @@
   text-align: center;
 }
 
-.page-contact .contact-info p a {
-  color: $main_color;
-}
-
-.page-contact .spacer {
-  background: $main_color;
-}
-
-.page-contact .section-title {
-  color: $main_color;
-}
-
 @media (min-width: 992px) {
   .site-footer {
     margin-top: 60px;
@@ -125,4 +108,8 @@ footer {
   -webkit-transition: opacity .2s cubic-bezier(0.23, 1, 0.32, 1);
   transition: opacity .2s cubic-bezier(0.23, 1, 0.32, 1);
   text-decoration: none;
+}
+
+.spacer {
+  background: $secondary_color;
 }
