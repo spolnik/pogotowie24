@@ -1,10 +1,14 @@
 $(document).ready ->
 
   $('.more-info').click ->
-    $('html, body').animate
-      scrollTop: $($(this).attr('href')).offset().top
-      500
+    $('.main').moveDown()
     false
+
+  $('.contact').click ->
+    $('.main').moveTo(6)
+    false
+
+  $('.main').onepage_scroll()
 
   $('#welcome').vegas
     slides: [
@@ -20,17 +24,6 @@ $(document).ready ->
 
   $('#vegas-prev').click ->
     $('#welcome').vegas('previous')
-
-  $('.navbar').sticky
-    topSpacing: 0
-
-  $('#menu').onePageNav
-    currentClass: "active"
-    changeHash: false
-    scrollThreshold: 0.5
-    scrollSpeed: 750
-    filter: ''
-    easing: 'swing'
 
   $('#contactForm').validate
     rules:
@@ -58,21 +51,3 @@ $(document).ready ->
       body:
         required: "To pole jest wymagane"
         minlength: "Proszę wpisać co najmniej dwa znaki"
-
-  init_map = ->
-    location = new google.maps.LatLng(50.0646501, 19.9449799);
-
-    mapoptions =
-      center: location
-      zoom: 10
-
-    marker = new google.maps.Marker
-      position: location,
-      map: map,
-      title:"Venice"
-
-    map = new google.maps.Map document.getElementById("map-container"), mapoptions
-
-    marker.setMap map
-
-  google.maps.event.addDomListener window, 'load', init_map

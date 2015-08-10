@@ -1,6 +1,5 @@
 .page-contact {
-
-
+  
   .form-control {
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -25,9 +24,14 @@
     pointer-events: auto;
   }
 
-  input, .input-lg {
+  input, .message {
     border-radius: 0;
   }
+
+  .message {
+    height: 100px;
+  }
+
   .control-group.error input, .control-group.error select, .control-group.error textarea {
     border-color: #b94a48;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -82,5 +86,3 @@
 .page-contact .section-title {
   color: $main_color;
 }
-
-#map-container { height: 300px }

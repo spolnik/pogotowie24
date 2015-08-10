@@ -22,22 +22,6 @@
   }
 }
 
-.elektryk {
-  background: $page_background_color_secondary;
-}
-
-.hydraulik {
-  background: $page_background_color;
-}
-
-.spawanie {
-  background: $page_background_color_secondary;
-}
-
-.slusarz {
-  background: $page_background_color;
-}
-
 .section-header p {
   font-size: 1.5em;
 
@@ -48,7 +32,7 @@
 
 .section-title {
   padding: 20px 0;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 700;
   letter-spacing: 5px;
   color: $title_text_color;
@@ -72,12 +56,6 @@
 }
 
 @media (min-width: 992px) {
-  .site-footer {
-    margin-top: 60px;
-  }
-}
-
-@media (min-width: 992px) {
   .site-footer .nav-footer li, .site-footer h6 {
     margin-bottom: 8px;
   }
@@ -89,7 +67,7 @@
 
 .site-footer {
   background-color: #243a54;
-  padding: 60px 0 20px;
+  padding: 30px 0 1000px;
   font-size: 1.2em;
   color: #fff;
 }
@@ -112,4 +90,23 @@ footer {
 
 .spacer {
   background: $secondary_color;
+}
+
+.btn.scroll-down {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto 20px;
+  padding: 0;
+  border: none;
+}
+
+.btn.scroll-down:hover, .btn.scroll-down:focus {
+  color: $secondary_color;
+  border: none;
+  background-color: transparent;
+  padding: 6px;
 }
