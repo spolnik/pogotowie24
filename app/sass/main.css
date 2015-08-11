@@ -15,6 +15,39 @@ h1, h2, h3, h4 {
   margin-right: auto;
   margin-left: auto; }
 
+.navbar {
+  width: 100%; }
+
+.navbar-default {
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -ms-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s; }
+
+.navbar-nav {
+  display: inline-block;
+  float: none;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 1em;
+  font-weight: bold;
+  list-style: none; }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: transparent; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background: none; }
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+  color: #fff; }
+
 .welcome {
   width: 100%;
   height: 100% !important;
@@ -114,12 +147,24 @@ h1, h2, h3, h4 {
 
 .site-footer {
   background-color: #243a54;
-  padding: 30px 0 1000px;
+  padding: 60px 0 20px;
   font-size: 1.2em;
   color: #fff; }
 
 h5, .made-in-krk {
   color: #3498db; }
+
+.elektryk {
+  background: #f7f7f7; }
+
+.hydraulik {
+  background: #fff; }
+
+.spawanie {
+  background: #f7f7f7; }
+
+.slusarz {
+  background: #fff; }
 
 footer {
   display: block; }
@@ -217,8 +262,6 @@ footer {
   pointer-events: auto; }
 .page-contact input, .page-contact .message {
   border-radius: 0; }
-.page-contact .message {
-  height: 100px; }
 .page-contact .control-group.error input, .page-contact .control-group.error select, .page-contact .control-group.error textarea {
   border-color: #b94a48;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -265,43 +308,32 @@ footer {
   padding: 14px 20px;
   border: 2px solid #fff;
   text-transform: uppercase;
-  line-height: 1.4em;
   letter-spacing: 0.15em;
   font-weight: 700;
-  font-style: normal;
-  font-size: 1em;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
-  border-radius: 100px;
-  /* CSS Transition */
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
   -o-transition: all .2s linear;
   transition: all .2s linear; }
 
-.phone {
-  /* CSS Transition */
-  -webkit-transition: all .2s linear;
-  -moz-transition: all .2s linear;
-  -o-transition: all .2s linear;
-  transition: all .2s linear;
-  letter-spacing: 0.05em; }
-
-.phone:hover {
-  letter-spacing: 0.15em; }
-
-.btn:hover, .btn:focus {
-  background: transparent;
+.btn:hover, .btn:focus, .btn:active {
+  background: #3498db;
   color: #fff;
   border: 3px solid #3498db;
   letter-spacing: 0.2em; }
+
+.phone {
+  letter-spacing: 0.05em; }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 a:hover,
 a:active,
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:active,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {

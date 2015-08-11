@@ -75,13 +75,29 @@
 
 .site-footer {
   background-color: #243a54;
-  padding: 30px 0 1000px;
+  padding: 60px 0 20px;
   font-size: 1.2em;
   color: #fff;
 }
 
 h5, .made-in-krk {
   color: $secondary_color;
+}
+
+.elektryk {
+  background: $page_background_color_secondary;
+}
+
+.hydraulik {
+  background: $page_background_color;
+}
+
+.spawanie {
+  background: $page_background_color_secondary;
+}
+
+.slusarz {
+  background: $page_background_color;
 }
 
 footer {

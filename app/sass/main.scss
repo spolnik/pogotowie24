@@ -22,63 +22,22 @@ h1, h2, h3, h4 {
   margin-left: auto;
 }
 
+@import "nav";
 @import "welcome";
 @import "layout";
 @import "slider";
 @import "form";
-
-.btn{
-
-  background: transparent;
-  color: #F2F2F2;
-  padding: 14px 20px;
-  border: 2px solid #fff;
-
-  text-transform: uppercase;
-  line-height: 1.4em;
-  letter-spacing: 0.15em;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 1em;
-
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
-  border-radius: 100px;
-
-  /* CSS Transition */
-  -webkit-transition: all .2s linear;
-  -moz-transition: all .2s linear;
-  -o-transition: all .2s linear;
-  transition: all .2s linear;
-
-}
+@import "btn";
 
 .phone {
-  /* CSS Transition */
-  -webkit-transition: all .2s linear;
-  -moz-transition: all .2s linear;
-  -o-transition: all .2s linear;
-  transition: all .2s linear;
   letter-spacing: 0.05em;
-}
-
-.phone:hover {
-  letter-spacing: 0.15em;
-}
-
-.btn:hover, .btn:focus {
-  background:transparent;
-  color: $main_color;
-  border: 3px solid $secondary_color;
-  letter-spacing: 0.2em;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 a:hover,
 a:active,
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:active,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
