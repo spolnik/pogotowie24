@@ -8,7 +8,9 @@ $(document).ready ->
     $('.main').moveTo(6)
     false
 
-  $('.main').onepage_scroll()
+  $('.main').onepage_scroll
+    keyboard: true
+    loop: true
 
   $('#welcome').vegas
     slides: [

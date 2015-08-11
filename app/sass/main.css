@@ -67,10 +67,14 @@ h1, h2, h3, h4 {
   margin: 0 20px 20px 0; }
   @media (max-height: 450px) {
     .page img {
-      margin: 0 auto 20px auto; } }
+      margin: 0 auto 20px auto;
+      width: 50px;
+      height: 50px; } }
   @media (max-width: 768px) {
     .page img {
-      margin: 0 auto 20px auto; } }
+      margin: 0 auto 20px auto;
+      width: 50px;
+      height: 50px; } }
 
 .section-header p {
   font-size: 1.5em; }
@@ -88,7 +92,7 @@ h1, h2, h3, h4 {
   text-transform: uppercase; }
   @media (max-width: 768px) {
     .section-title {
-      font-size: 1.5em; } }
+      font-size: 1em; } }
 
 .spacer {
   width: 100px;
@@ -98,6 +102,9 @@ h1, h2, h3, h4 {
 .section-subtitle {
   padding: 30px 0;
   text-align: center; }
+  @media (max-width: 768px) {
+    .section-subtitle {
+      font-size: 0.5em; } }
 
 @media (min-width: 992px) {
   .site-footer .nav-footer li, .site-footer h6 {

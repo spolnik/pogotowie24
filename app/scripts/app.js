@@ -9,7 +9,10 @@
       $('.main').moveTo(6);
       return false;
     });
-    $('.main').onepage_scroll();
+    $('.main').onepage_scroll({
+      keyboard: true,
+      loop: true
+    });
     $('#welcome').vegas({
       slides: [
         {
