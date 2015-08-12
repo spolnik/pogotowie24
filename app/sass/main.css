@@ -10,10 +10,12 @@ h1, h2, h3, h4 {
   font-family: "Alegreya", sans-serif;
   font-weight: 700; }
 
-.centered {
-  float: none;
-  margin-right: auto;
-  margin-left: auto; }
+.phone {
+  letter-spacing: 0.05em; }
+
+a:hover,
+a:active {
+  color: #3498db; }
 
 .navbar {
   width: 100%; }
@@ -132,7 +134,7 @@ h1, h2, h3, h4 {
   padding: 20px 0;
   font-size: 2em;
   font-weight: 700;
-  letter-spacing: 5px;
+  letter-spacing: 0.25em;
   color: #555;
   text-align: center;
   text-transform: uppercase; }
@@ -271,7 +273,6 @@ footer {
   padding: 12px 26px 12px;
   cursor: pointer;
   border-radius: 0;
-  letter-spacing: 2px;
   pointer-events: auto; }
 .page-contact input, .page-contact .message {
   border-radius: 0; }
@@ -306,8 +307,7 @@ footer {
   .page-contact .btn:hover, .page-contact .btn:focus {
     background: #fff;
     color: #3498db;
-    border: 2px solid #3498db;
-    letter-spacing: 0.2em; }
+    border: 2px solid #3498db; }
 
 .page-contact .spacer {
   background-color: #fff; }
@@ -348,12 +348,5 @@ footer {
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff; }
-
-.phone {
-  letter-spacing: 0.05em; }
-
-a:hover,
-a:active {
-  color: #3498db; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,27 +1,4 @@
-@import "fonts";
-@import "colors";
-
-html, body {
-  width: 100%;
-  height: 100%;
-  font-family: $alegreya;
-}
-
-img {
-  max-width: 100%;
-}
-
-h1, h2, h3, h4 {
-  font-family: $alegreya;
-  font-weight: 700;
-}
-
-.centered {
-  float: none;
-  margin-right: auto;
-  margin-left: auto;
-}
-
+@import "base";
 @import "nav";
 @import "welcome";
 @import "layout";
@@ -29,12 +6,4 @@ h1, h2, h3, h4 {
 @import "form";
 @import "btn";
 
-.phone {
-  letter-spacing: 0.05em;
-}
-
-a:hover,
-a:active {
-  color: $secondary_color;
-}
 
