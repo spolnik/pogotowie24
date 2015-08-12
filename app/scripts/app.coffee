@@ -58,9 +58,27 @@ $(document).ready ->
 
   $(document).scroll ->
     if($(this).scrollTop() > 0)
-      $(".navbar-default").css 'background-color', '#7F6239'
+      $(".navbar-default").css 'background-color', '#3E454C'
     else
       $('.navbar-default').css 'background-color', 'transparent'
 
+
+  init_map = ->
+    location = new google.maps.LatLng(50.0646501, 19.9449799);
+
+    mapoptions =
+      center: location
+      zoom: 10
+
+    marker = new google.maps.Marker
+      position: location,
+      map: map,
+      title:"Venice"
+
+    map = new google.maps.Map document.getElementById("map"), mapoptions
+
+    marker.setMap map
+
+  google.maps.event.addDomListener window, 'load', init_map
 
 

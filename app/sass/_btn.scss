@@ -33,9 +33,9 @@
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:active {
-  background: $dark_color;
+  background: transparent;
   color: $highlight_color;
-  border: 2px solid $dark_color;
+  border: 2px solid $highlight_color;
 }
 
 .navbar-default .navbar-toggle .icon-bar {

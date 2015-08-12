@@ -26,6 +26,10 @@
   }
 }
 
+#elektryk img {
+  width: 182px;
+}
+
 .section-header p {
   font-size: 1.5em;
 
@@ -84,12 +88,12 @@ h5, .made-in-krk {
 }
 
 .page-dark {
-  background: $dark_color;
+  background: $dark_background;
   color: $light_color;
 }
 
 .page-light {
-  background: $light_color;
+  background: $light_background;
 }
 
 footer {
@@ -131,4 +135,10 @@ footer {
   border: none;
   background-color: transparent;
   padding: 6px;
+}
+
+#map { height: 300px }
+
+.marketing ul li {
+  margin: 0.75em 0;
 }
