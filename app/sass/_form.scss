@@ -38,7 +38,7 @@
   }
 
   label.error, label.valid {
-    color: $main_color;
+    color: $light_color;
     padding: 4px 18px;
     display: block;
     margin: 5px 0 10px;
@@ -56,27 +56,27 @@
   padding: 75px 0;
 
   a, a:hover, a:focus {
-    color: $main_color;
+    color: $light_color;
   }
 }
 .page-contact .contact-info p {
   font-size: 1.2em;
 }
 .page-contact {
-  background-color: $secondary_color;
-  color: $main_color;
+  background-color: $dark_color;
+  color: $light_color;
 
   .btn:hover, .btn:focus {
-    background: $main_color;
-    color: $secondary_color;
-    border: 2px solid $secondary_color;
+    background: $light_color;
+    color: $dark_color;
+    border: 2px solid $dark_color;
   }
 }
 
 .page-contact .spacer {
-  background-color: $main_color;
+  background-color: $light_color;
 }
 
 .page-contact .section-title {
-  color: $main_color;
+  color: $light_color;
 }

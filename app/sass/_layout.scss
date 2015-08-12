@@ -73,10 +73,10 @@
 }
 
 .site-footer {
-  background-color: $secondary_dark_color;
+  background-color: $dark_color;
   padding: 60px 0 20px;
   font-size: 1.2em;
-  color: $main_color;
+  color: $light_color;
 }
 
 h5, .made-in-krk {
@@ -84,12 +84,12 @@ h5, .made-in-krk {
 }
 
 .page-dark {
-  background: $page_background_color_secondary;
-  color: $main_color;
+  background: $dark_color;
+  color: $light_color;
 }
 
 .page-light {
-  background: $page_background_color;
+  background: $light_color;
 }
 
 footer {
@@ -98,7 +98,7 @@ footer {
 
 .site-footer a {
   border-bottom: none;
-  color: $main_color;
+  color: $light_color;
   -webkit-transition: opacity .2s cubic-bezier(0.23, 1, 0.32, 1);
   transition: opacity .2s cubic-bezier(0.23, 1, 0.32, 1);
   text-decoration: none;
@@ -111,7 +111,7 @@ footer {
 }
 
 .spacer {
-  background: $secondary_color;
+  background: $dark_color;
 }
 
 .btn.scroll-down {
