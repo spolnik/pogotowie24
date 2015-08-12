@@ -33,14 +33,8 @@ h1, h2, h3, h4 {
   letter-spacing: 0.05em;
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus,
 a:hover,
-a:active,
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:active,
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+a:active {
   color: $secondary_color;
 }
 

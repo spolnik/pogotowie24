@@ -50,6 +50,17 @@ h1, h2, h3, h4 {
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
   color: #fff; }
 
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #3498db; }
+
 .welcome {
   width: 100%;
   height: 100% !important;
@@ -341,14 +352,8 @@ footer {
 .phone {
   letter-spacing: 0.05em; }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus,
 a:hover,
-a:active,
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:active,
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+a:active {
   color: #3498db; }
 
 /*# sourceMappingURL=main.css.map */
