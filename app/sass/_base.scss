@@ -5,6 +5,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: $alegreya;
+  color: $secondary_dark_color;
 }
 
 img {
@@ -21,6 +22,7 @@ h1, h2, h3, h4 {
 }
 
 a:hover,
-a:active {
-  color: $secondary_color;
+a:active,
+a:focus {
+  color: $highlight_color;
 }

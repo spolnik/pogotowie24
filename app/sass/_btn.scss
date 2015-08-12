@@ -2,8 +2,8 @@
 
 .btn {
   background: transparent;
-  color: #F2F2F2;
-  border: 2px solid #fff;
+  color: $main_color;
+  border: 2px solid $main_color;
 
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -34,7 +34,7 @@
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:active {
   background: $secondary_color;
-  color: $main_color;
+  color: $highlight_color;
   border: 2px solid $secondary_color;
 }
 

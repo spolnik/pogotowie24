@@ -52,5 +52,9 @@
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: $secondary_color;
+  color: $highlight_color;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: $main_color;
 }
