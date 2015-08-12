@@ -19,13 +19,13 @@
     $('#welcome').vegas({
       slides: [
         {
-          src: 'app/img/tool-384740_1280.jpg'
+          src: 'app/img/hydraulik.jpg'
         }, {
-          src: 'app/img/light-bulb.jpg'
+          src: 'app/img/elektryk.jpg'
         }, {
-          src: 'app/img/tools-864983_1280.jpg'
+          src: 'app/img/spawanie.jpg'
         }, {
-          src: 'app/img/keys.jpg'
+          src: 'app/img/slusarz.jpg'
         }
       ],
       overlay: true
