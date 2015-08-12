@@ -56,17 +56,11 @@ $(document).ready ->
         required: "To pole jest wymagane"
         minlength: "Proszę wpisać co najmniej dwa znaki"
 
-  scroll_start = 0
-  startchange = $('#elektryk')
-  offset = startchange.offset()
-
-  if (startchange.length)
-    $(document).scroll ->
-      scroll_start = $(this).scrollTop()
-      if(scroll_start + 40 > offset.top)
-        $(".navbar-default").css 'background-color', '#243a54'
-      else
-        $('.navbar-default').css 'background-color', 'transparent'
+  $(document).scroll ->
+    if($(this).scrollTop() > 0)
+      $(".navbar-default").css 'background-color', '#243a54'
+    else
+      $('.navbar-default').css 'background-color', 'transparent'
 
 
 
