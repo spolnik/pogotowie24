@@ -58,7 +58,7 @@ $(document).ready ->
 
   $(document).scroll ->
     if($(this).scrollTop() > 0)
-      $(".navbar-default").css 'background-color', '#7F5213'
+      $(".navbar-default").css 'background-color', '#7F6239'
     else
       $('.navbar-default').css 'background-color', 'transparent'
 

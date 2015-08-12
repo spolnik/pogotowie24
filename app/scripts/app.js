@@ -74,7 +74,7 @@
     });
     return $(document).scroll(function() {
       if ($(this).scrollTop() > 0) {
-        return $(".navbar-default").css('background-color', '#7F5213');
+        return $(".navbar-default").css('background-color', '#7F6239');
       } else {
         return $('.navbar-default').css('background-color', 'transparent');
       }

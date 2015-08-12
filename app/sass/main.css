@@ -2,7 +2,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: "Alegreya", sans-serif;
-  color: #7F5213; }
+  color: #7F6239; }
 
 img {
   max-width: 100%; }
@@ -43,7 +43,7 @@ a:focus {
   list-style: none; }
 
 .collapse.in, .collapsing {
-  background-color: #7F5213; }
+  background-color: #7F6239; }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   background-color: transparent; }
@@ -168,7 +168,7 @@ a:focus {
   line-height: 1.5; }
 
 .site-footer {
-  background-color: #7F5213;
+  background-color: #7F6239;
   padding: 60px 0 20px;
   font-size: 1.2em;
   color: #FFC472; }
