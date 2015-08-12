@@ -16,10 +16,10 @@ $(document).ready ->
 
   $('#welcome').vegas
     slides: [
-      {src: 'app/img/hydraulik.jpg'},
-      {src: 'app/img/elektryk.jpg'},
-      {src: 'app/img/spawanie.jpg'}
-      {src: 'app/img/slusarz.jpg'},
+      {src: 'dist/img/hydraulik.jpg'},
+      {src: 'dist/img/elektryk.jpg'},
+      {src: 'dist/img/spawanie.jpg'}
+      {src: 'dist/img/slusarz.jpg'},
     ]
     overlay: true
 

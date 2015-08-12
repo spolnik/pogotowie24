@@ -1,0 +1,39 @@
+footer {
+  display: block;
+}
+
+.site-footer a {
+  color: $light_color;
+  text-decoration: none;
+  border-bottom: none;
+
+  transition: opacity .2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.site-footer a:hover,
+.site-footer a:focus,
+.site-footer a:active {
+  color: $highlight_color;
+}
+
+.site-footer a, .site-footer h6 {
+  line-height: 1.5;
+}
+
+.site-footer {
+  padding: 60px 0 20px;
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: $light_color;
+  background-color: $dark_color;
+}
+
+h5, .made-in-krk {
+  color: $highlight_color;
+}
+
+@media (min-width: 992px) {
+  .site-footer .nav-footer li, .site-footer h6 {
+    margin-bottom: 8px;
+  }
+}

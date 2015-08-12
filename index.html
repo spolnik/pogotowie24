@@ -10,12 +10,7 @@
           content="Pogotowie Elektryczne, Hydrauliczne, Spawalnicze, Ślusarskie w Krakowie i okolicach. Szybko tanio solidnie całodobowo - błyskawiczny dojazd 792-693-120">
 
     <link rel="shortcut icon" type="image/ico" href="favicon-medkit.ico"/>
-
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="bower_components/vegas/dist/vegas.min.css"/>
-    <link rel="stylesheet" href="app/sass/main.css"/>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/bundle.min.css"/>
 
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Alegreya+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -66,7 +61,7 @@
 
 <section id="welcome" class="welcome">
     <div>
-        <ul class="slider-controls">
+        <ul class="slider-controls hidden-xs">
             <li><a href="javascript:void(0)" id="vegas-next" class="next"></a></li>
             <li><a href="javascript:void(0)" id="vegas-prev" class="prev"></a></li>
         </ul>
@@ -78,8 +73,7 @@
 
                 <p>Naprawy na terenie całego krakowa i okolic</p>
 
-                <p class="phone"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> +48 792 693
-                    120</p>
+                <p class="phone"><i class="fa fa-phone fa-lg"></i> +48 792 693 120</p>
                 <a href="#page-contact" class="btn btn-default more-info kontakt" role="button">Kontakt</a>
 
             </header>
@@ -117,7 +111,7 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <div class="profile"><img src="app/img/hydraulik.png" alt="hydraulik"/>
+                <div class="profile"><img src="dist/img/hydraulik.png" alt="hydraulik"/>
                 </div>
                 <div>
                     Hydraulik Kraków - do usług 24h/dobę
@@ -130,7 +124,7 @@
     </div>
 </section>
 
-<section id="elektryk" class="page-light page">
+<section id="elektryk" class="page-light page elektryk">
     <div class="container">
         <header class="section-header">
             <h1 class="section-title">Usługi elektryczne</h1>
@@ -154,7 +148,7 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <div class="profile"><img src="app/img/elektryk.png" alt="elektryk"/>
+                <div class="profile"><img src="dist/img/elektryk.png" alt="elektryk"/>
                 </div>
                 <div>
                     Elektryk Kraków - do usług 24h/dobę
@@ -188,7 +182,7 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <div class="profile"><img src="app/img/slusarz.png" alt="slusarz"/>
+                <div class="profile"><img src="dist/img/slusarz.png" alt="slusarz"/>
                 </div>
                 <div>
                     Ślusarz Kraków - do usług 24h/dobę
@@ -228,7 +222,7 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <div class="profile"><img src="app/img/spawanie.png" alt="spawanie"/>
+                <div class="profile"><img src="dist/img/spawanie.png" alt="spawanie"/>
                 </div>
                 <div>
                     Spawanie Kraków - do usług 24h/dobę
@@ -327,7 +321,7 @@
                     </ul>
                 </div>
                 <div class="col-md-5">
-                    <div id="map"></div>
+                    <div id="map" class="map"></div>
                 </div>
             </div>
         </div>
@@ -380,12 +374,7 @@
     </div>
 </footer>
 
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="bower_components/vegas/dist/vegas.min.js"></script>
-<script src="bower_components/jQuery-One-Page-Nav/jquery.nav.js"></script>
-<script src="bower_components/jquery.validate/dist/jquery.validate.min.js"></script>
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script src="app/scripts/app.js"></script>
+<script src="dist/bundle.min.js"></script>
 </body>
 </html>

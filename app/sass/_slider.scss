@@ -1,16 +1,12 @@
 .vegas-overlay {
-  opacity: 0.6;
   background-color: black;
+  opacity: 0.6;
 }
-
 
 .slider-controls {
   padding: 0;
   margin: 0;
   opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
@@ -20,23 +16,20 @@
 
 .welcome:hover .slider-controls {
   opacity: 1;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
 .next {
   right: 0;
   margin-right: 70px;
-  background: url("../img/next.png");
+  background: url("img/next.png");
   opacity: 0.3;
 }
 
 .prev {
   left: 0;
   margin-left: 70px;
-  background: url("../img/prev.png");
+  background: url("img/prev.png");
   opacity: 0.3;
 }
 
@@ -51,4 +44,8 @@
   width: 60px;
   height: 60px;
   cursor: pointer;
+}
+
+.vegas-timer-progress {
+  background: $light_color;
 }

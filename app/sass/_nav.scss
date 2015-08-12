@@ -11,9 +11,6 @@
   background-color: transparent;
   border: none;
 
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -o-transition: all .5s;
   transition: all .5s;
 }
 
@@ -27,7 +24,7 @@
   list-style: none;
 }
 
-.collapse.in, .collapsing {
+.in, .collapsing {
   background-color: $dark_color;
 }
 
@@ -57,4 +54,16 @@
 
 .navbar-default .navbar-toggle {
   border-color: $light_color;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:active {
+  color: $highlight_color;
+  background: transparent;
+  border: 2px solid $highlight_color;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: $light_color;
 }
