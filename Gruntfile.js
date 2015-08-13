@@ -36,12 +36,12 @@ module.exports = function(grunt) {
             },
             dist: {
                 src: [
-                    './bower_components/jquery/dist/jquery.js',
-                    './bower_components/bootstrap/dist/js/bootstrap.js',
-                    './bower_components/jQuery-One-Page-Nav/jquery.nav.js',
-                    './bower_components/jquery.validate/dist/jquery.validate.js',
-                    './bower_components/vegas/dist/vegas.js',
-                    './build/main.js'
+                    'bower_components/jquery/dist/jquery.js',
+                    'bower_components/bootstrap/dist/js/bootstrap.js',
+                    'bower_components/jQuery-One-Page-Nav/jquery.nav.js',
+                    'bower_components/jquery.validate/dist/jquery.validate.js',
+                    'bower_components/vegas/dist/vegas.js',
+                    'build/main.js'
                 ],
                 dest: 'build/bundle.js'
             }
@@ -53,24 +53,12 @@ module.exports = function(grunt) {
                 }
             }
         },
-        uncss: {
-            dist: {
-                options: {
-                     'stylesheets': [
-                         './bower_components/bootstrap/dist/css/bootstrap.min.css',
-                         './bower_components/font-awesome/css/font-awesome.min.css'
-                     ]
-                },
-                files: {
-                    'build/bootstrap_font-awesome.tidy.css': 'index.html'
-                }
-            }
-        },
         cssmin: {
             target: {
                 files: {
                     'dist/bundle.min.css': [
-                        'build/bootstrap_font-awesome.tidy.css',
+                        'bower_components/bootstrap/dist/css/bootstrap.min.css',
+                        'bower_components/font-awesome/css/font-awesome.min.css',
                         'bower_components/vegas/dist/vegas.min.css',
                         'build/main.css'
                     ]
@@ -103,7 +91,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-coffee');
-    grunt.loadNpmTasks('grunt-uncss');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-postcss');
 
@@ -112,7 +99,7 @@ module.exports = function(grunt) {
     );
 
     grunt.registerTask('css',
-        ['sass', 'postcss', 'uncss', 'cssmin']
+        ['sass', 'postcss', 'cssmin']
     );
 
     grunt.registerTask('default',

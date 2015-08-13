@@ -19,9 +19,6 @@
     "grunt-contrib-sass": "^0.9.2",
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-postcss": "^0.5.5",
-    "grunt-uncss": "^0.4.3"
-  },
-  "dependencies": {
     "autoprefixer-core": "^5.2.1"
   }
 }
