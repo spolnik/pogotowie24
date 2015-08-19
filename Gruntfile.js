@@ -73,6 +73,11 @@ module.exports = function(grunt) {
             }
         },
         imagemin: {
+            static: {
+                files: {
+                    'dist/overlays/02.png': 'app/overlays/02.png'
+                }
+            },
             dynamic: {
                 files: [{
                     expand: true,

@@ -192,9 +192,6 @@ a:focus {
 .page-light {
   background: #FFF6E5; }
 
-.map {
-  height: 300px; }
-
 .marketing ul li {
   margin: 0.75em 0; }
 
@@ -314,6 +311,8 @@ h5, .made-in-krk {
     background-color: #FFF6E5; }
   .page-contact .section-title {
     color: #FFF6E5; }
+  .page-contact .map {
+    height: 266px; }
 
 .btn {
   font-weight: 700;
